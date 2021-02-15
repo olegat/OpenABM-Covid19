@@ -12,6 +12,8 @@
 #include "input.h"
 #include "constant.h"
 
+#include "clock_win32.h" // for clock_gettime with MSVC
+
 int main(int argc, char *argv[])
 {
     printf("# Starting simulation\n");

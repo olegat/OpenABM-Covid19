@@ -9,6 +9,7 @@ src/Makevars
 autom4te.cache/
 
 # File associated with compilation/linking
+/build/
 src/**/*.o
 src/**/*.exe
 src/**/*.csv

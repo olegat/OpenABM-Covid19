@@ -30,6 +30,7 @@
 ^src\/Makevars$
 
 # Build files
+^build$
 ^Makefile$
 ^package-for-CRAN\.sh$
 ^OpenABMCovid19.tmp$
@@ -54,3 +55,9 @@
 ^documentation$
 ^src\/Makefile$
 ^src\/main\.c$
+
+# CMake (for debugging on Windows)
+^CMakeLists\.txt$
+^src\/clock_win32\.c$
+^src\/clock_win32\.h$
+^src\/asan_crt_win32\.c$
